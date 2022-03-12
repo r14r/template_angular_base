@@ -1,4 +1,5 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
+/.env.node
 
 # compiled output
 /dist
@@ -8,6 +9,7 @@
 /bazel-out
 
 # dependencies
+/.angular
 /node_modules
 
 # profiling files
@@ -38,6 +40,8 @@ speed-measure-plugin*.json
 /libpeerconnection.log
 npm-debug.log
 yarn-error.log
+.pnpm-debug.log
+pnpm-lock.yaml
 testem.log
 /typings
 
